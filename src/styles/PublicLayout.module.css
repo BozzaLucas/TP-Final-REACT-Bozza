@@ -1,0 +1,25 @@
+.publicLayout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f4f4; 
+}
+
+header {
+  background-color: #007bff; 
+  color: white; 
+  padding: 20px;
+  text-align: center;
+  font-size: 28px; 
+  font-weight: bold; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  flex: 1;
+  padding: 40px 20px; 
+  background-color: white; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
+  border-radius: 8px; 
+  margin: 20px;
+}

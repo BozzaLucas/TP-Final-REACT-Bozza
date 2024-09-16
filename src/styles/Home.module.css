@@ -1,0 +1,84 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e9ecef;
+  padding: 20px; 
+  position: relative; 
+}
+
+
+.headerUserInfo {
+  position: absolute;
+  top: -121px; 
+  right: 1px; 
+  text-align: right; 
+  z-index: 1; 
+  padding: 10px 20px; 
+  border-radius: 8px; 
+  font-family: 'Arial', sans-serif; 
+  color: white; 
+  background-color: transparent;
+}
+
+
+h1 {
+  color: #343a40;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.description {
+  font-size: 18px;
+  color: #6c757d;
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.5;
+  margin-top: 10px;
+  padding: 0 20px;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #7db7f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+ul {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  padding: 0; 
+  list-style: none; 
+  margin: 20px 0; 
+}
+
+
+li {
+  background-color: #fff; 
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px; 
+  text-align: center;
+}
+
+li:hover {
+  background-color: #f8f9fa; 
+  transform: scale(1.05); 
+}

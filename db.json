@@ -1,0 +1,28 @@
+{
+  "empleados": [
+    {
+      "nombre": "Anaa",
+      "cargo": "Diseñadoraa",
+      "email": "adadada@gmail.comm",
+      "telefono": "1344222",
+      "direccion": "4444",
+      "id": "a689"
+    },
+    {
+      "id": "0121",
+      "nombre": "Esteban",
+      "cargo": "Encargado",
+      "email": "example@gmail.com",
+      "telefono": "3422 43 1211",
+      "direccion": "Avenida Siempre Viva 742"
+    },
+    {
+      "id": "eaf3",
+      "nombre": "Anaa",
+      "cargo": "Delivery",
+      "email": "example@gmail.com",
+      "telefono": "12222",
+      "direccion": "Avenida Siempre Viva 745"
+    }
+  ]
+}
